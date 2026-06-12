@@ -33,7 +33,7 @@ from insights.core.plugins import parser
 from insights.specs import Specs
 from insights.util import deprecated
 
-# TODO: Need to migrate the `add_filters` to filter-requester.
+# TODO: Need to migrate the `add_filter` to filter-requester.
 # Note. Please pay attention to the sensitive data when adding new fields to the filter.
 add_filter(
     Specs.azure_instance_compute_metadata, ['licenseType', 'vmSize', 'vmId', 'plan', 'offer']
